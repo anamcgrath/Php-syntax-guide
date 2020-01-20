@@ -1,5 +1,5 @@
 # Php-syntax-guide
-Complete guide to PHP syntax including descriptions and examples
+#### Complete guide to PHP syntax including descriptions and examples
 
 ## PHP Comments
 
