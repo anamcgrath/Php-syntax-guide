@@ -126,8 +126,12 @@ birth("Ana", "1976");
 ```
 
 ## PHP Arrays
+An array uses one variable to store multiple values.
+```
+$fruits = array(“oranges”, ”apples”, “nectarines”, “grapes”);
+echo “My favourite fruits are “ . $fruits[0] . “, “ . $fruits[1] . “, “ . $fruits[2] . “and “ . $fruits[3] ;
 
-
+```
 
 ## PHP Loop
 
