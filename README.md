@@ -3,9 +3,11 @@
 
 ## PHP Comments
 
-''' // two double slashes represent a single line php comment like this '''
+```
+// two double slashes represent a single line php comment like this 
 
 /* A multi-line comment begins with forward slash and asterisk and ends with an asterisk and backslash  */ 
+```
 
 ## PHP Variables
 
