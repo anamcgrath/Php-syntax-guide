@@ -74,6 +74,12 @@ echo ‘this is a simple string’;
 
 
 ## PHP Numbers
+Php numbers can be integers(positive and negative), floats(decimal numbers), infinity and NaN(no number).
+A way to check if a numeric value is boolean is by using the `is_numeric()` function.
+E.g. ` $a = -456.78;
+var_dump(is_numeric($a)); `
+Returns: ` bool(true) `
+
 
 
 ## PHP Constants
