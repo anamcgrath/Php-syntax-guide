@@ -100,12 +100,29 @@ echo Name;
 
 
 ## PHP If & Else & Elseif
+The if statement will execute code if the parameters in the condition statement are true. The else statement will execute if the if statement was false. The elseif statement will execute if the if statement was false and its condition statement is true.
+```
+if ($decision = true) {
+    echo “You are correct!”;
+} elseif ($decision = false) {
+    echo “Your answer is incorrect.”
+} else {
+   echo “Please select an answer.”
+}
+```
 
 
 
 ## PHP Functions
 
+A function is a block statement that is created in code and can be executed throughout the page by calling the function. PHP has many built in functions. A list of over 1000 built in php functions is found on [php.net](https://www.php.net/manual/en/indexes.functions.php).
 
+
+```
+function birth($name, $year) {
+    echo $name . “was born in” .  $year;
+}
+```
 
 ## PHP Arrays
 
