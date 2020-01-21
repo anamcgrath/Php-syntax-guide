@@ -122,6 +122,7 @@ A function is a block statement that is created in code and can be executed thro
 function birth($name, $year) {
     echo $name . “was born in” .  $year;
 }
+birth("Ana", "1976");
 ```
 
 ## PHP Arrays
