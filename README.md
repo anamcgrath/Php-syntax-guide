@@ -60,7 +60,7 @@ Objects can store both values and functions.
 ### Null 
 
 A variable with no value. It is represented as “NULL”.
-E.g. $variable= NULL;
+E.g. ` $variable= NULL; `
 
 ### Resources
 These are used to store or call references to an external php resource.
@@ -68,7 +68,9 @@ These are used to store or call references to an external php resource.
 ## PHP Strings
 
 A string is a series of characters and one character is the same as a byte. They can be single or double quoted.
-``` echo ‘this is a simple string’; ```
+``` 
+echo ‘this is a simple string’; 
+```
 
 
 ## PHP Numbers
