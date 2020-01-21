@@ -89,6 +89,11 @@ bool(true)
 
 
 ## PHP Constants
+A constant is a value that cannot change. It is the same throughout the whole script. You can create a constant with the ` define() ` function. Remember that constants are case sensitive.
+```
+define(“Name”, “My name is Ana McGrath“);
+echo Name;
+```
 
 
 ## PHP Operators
@@ -109,4 +114,6 @@ bool(true)
 ## PHP Loop
 
 
+
+Go to [W3Schools](https://www.w3schools.com/php) for more information on PHP syntax 
 
