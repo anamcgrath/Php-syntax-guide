@@ -32,22 +32,26 @@ Php data types are the values that can be assigned to a variable. These are the 
 
 ### Integers, Decimals and Fractions
 These could be expressed in decimal, hexadecimal numbers or octal notation. They can be positive or negative numbers.
-e.g. 1, -1, 0x1A, 01, 1.23, 10.2e3, 16e-10
+E.g.` 1, -1, 0x1A, 01, 1.23, 10.2e3, 16e-10 `
 
 ### Strings
 Strings are a line of characters. Each character is the size of a byte. Any data type can be inside of a string but it most be enclosed by single or double quotes.
-E.g “string” or ’string’
+E.g ` $variable = “string” or $variable = ’string’ `
 
 ### Booleans
 True(1) or false(0)
+E.g. `$variable = true; `
 
 ### Arrays
 Arrays hold multiple variables at one time.
+e.g.
+```
 $animals = array(
     “Mammal” => “horse”,
     “Reptile” => “alligator”,
     “Amphibian” => “salamander”
 );
+```
 
 
 ### Objects
@@ -61,12 +65,10 @@ E.g. $variable= NULL;
 ### Resources
 These are used to store or call references to an external php resource.
 
-
-
 ## PHP Strings
 
 A string is a series of characters and one character is the same as a byte. They can be single or double quoted.
-echo ‘this is a simple string’;
+``` echo ‘this is a simple string’; ```
 
 
 ## PHP Numbers
