@@ -11,17 +11,21 @@
 
 ## PHP Variables
 
-$name = “A variable starts with a dollar sign and is followed by the value or name.”;
 A variable is used to store values like numbers, characters, names and strings. 
+```
+$name = “A variable starts with a dollar sign and is followed by the value or name.”;
+```
+
 
 ## PHP Echo / Print
 
 Echo and print statements are used to output values onto the page. They are used in a very similar way. The difference between the two though is, “echo” can take multiple parameters while “print” can only take one argument and can only ever return one. 
+```
 echo "Hey there!”;
 
 print "Hey there!“;
 
-
+```
 ## PHP Data Types
 
 Php data types are the values that can be assigned to a variable. These are the data types that a variable accepts:
