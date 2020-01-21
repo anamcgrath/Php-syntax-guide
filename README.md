@@ -98,6 +98,7 @@ echo Name;
 
 ## PHP Operators
 
+The operators perform operations on variables and values. There are Arithmetic Operators, Assignment Operators, Comparison Operators, Incrementing and Decrementing Operators, Logical Operators, String Operators, Array Operators. For some examples check out this [website](https://www.tutorialrepublic.com/php-tutorial/php-operators.php).
 
 ## PHP If & Else & Elseif
 The if statement will execute code if the parameters in the condition statement are true. The else statement will execute if the if statement was false. The elseif statement will execute if the if statement was false and its condition statement is true.
@@ -135,7 +136,40 @@ echo “My favourite fruits are “ . $fruits[0] . “, “ . $fruits[1] . “, 
 
 ## PHP Loop
 
+Loops are used to repeat certain lines of code as long as a conditional statement remains true.
 
+### While loop
+A while loop will continue to execute as long as the condition statement is true.
+```
+$x = 1;
+
+while($x < 3) {
+    echo $x;
+    $x++;
+}
+```
+### Do while
+The do while loop is very similar to the while loop except it runs through the code once and then will continue to do it while the constraint stays true.
+```
+$x = 1;
+do {
+ echo $x;
+    $x++;
+ } while($x  < 3); 
+   
+```
+### For 
+The for loop is used when you already know how many times the script should run before running it.
+for ($x= 0, $x< 3, $x++) {
+    echo $x;
+}
+
+### For each
+The for each loop is used on arrays and loops through each element in the array.
+$fruits = array(“oranges”, ”apples”, “nectarines”, “grapes”);
+foreach($fruits as $val) {
+  echo $val;
+}
 
 Go to [W3Schools](https://www.w3schools.com/php) for more information on PHP syntax 
 
