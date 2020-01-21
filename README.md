@@ -135,7 +135,6 @@ echo “My favourite fruits are “ . $fruits[0] . “, “ . $fruits[1] . “, 
 ```
 
 ## PHP Loop
-
 Loops are used to repeat certain lines of code as long as a conditional statement remains true.
 
 ### While loop
@@ -160,16 +159,20 @@ do {
 ```
 ### For 
 The for loop is used when you already know how many times the script should run before running it.
+```
 for ($x= 0, $x< 3, $x++) {
     echo $x;
 }
+```
 
 ### For each
 The for each loop is used on arrays and loops through each element in the array.
+```
 $fruits = array(“oranges”, ”apples”, “nectarines”, “grapes”);
 foreach($fruits as $val) {
   echo $val;
 }
+```
 
 Go to [W3Schools](https://www.w3schools.com/php) for more information on PHP syntax 
 
