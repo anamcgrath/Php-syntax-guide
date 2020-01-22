@@ -1,6 +1,7 @@
 # Php-syntax-guide
 #### Complete guide to PHP syntax including descriptions and examples
 
+Note: All php code must be enclosed in php brackets, even when you are writing to a file with the php extension. Php coded like this: `<?php echo "those are the php brackets"; ?>`
 ## PHP Comments
 
 ```
